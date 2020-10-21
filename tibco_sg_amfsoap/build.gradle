@@ -5,6 +5,11 @@ apply plugin: 'java'
 
 dependencies {
    implementation fileTree(include: ['*.jar'], dir: 'lib')
+   implementation 'javax.resource:connector-api:1.5'
+   implementation 'org.apache.httpcomponents:httpcore:4.4.5'
+   implementation 'javax.jms:jms:1.1'
+   implementation 'javax.servlet:servlet-api:2.5'
+   
 
    // New Relic Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
