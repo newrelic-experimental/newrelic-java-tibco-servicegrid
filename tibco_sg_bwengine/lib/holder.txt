@@ -1,0 +1,7 @@
+Add these jars from your installation
+bwmtgextensions.jar   
+com.tibco.tibcoxml.xml.sdk_xxxx.jar   
+engine.jar   
+TIBCOxml.jar   
+xdata.jar   
+
