@@ -1,27 +1,35 @@
 [![Experimental Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#experimental)
 
-# [Name of Project] [build badges go here when available]
+# Tibco Service Grid Instrumentation
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+> Provides instrumentation for the Tibco Service Grid product
 
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+> Download the lastest release
+> Extract the jars from the archive
+> Copy the jars into the extensions directory of the New Relic Java Agent.  Create the directory if it does not exist.
+> Restart the application
 
 ## Getting Started
->[Simple steps to start working with the software similar to a "Hello World"]
-
-## Usage
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
-
+> Requires gradle installed.
+> Run the following to build agent dependencies
+gradle checkForDependencies
 
 ## Building
+> Set the environment variable
+> To build all extensions, run  
+gradle clean install
+  
+> To build a particular extension, run the following where *project* is the extension to build
+gradle *project*:clean *project*:install
 
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
+**Example**
+gradle tibco_sg_spline:clean tibco_sg_spline:install
 
 ## Testing
 
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
+> Not Supported
 
 ## Support
 
