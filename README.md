@@ -1,6 +1,6 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# Tibco Service Grid Instrumentation
+# New Relic Java Instrumentation for Tibco Service Grid
 
 > Provides instrumentation for the Tibco Service Grid product
 
