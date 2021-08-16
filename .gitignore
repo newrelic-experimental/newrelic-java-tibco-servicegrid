@@ -6,4 +6,4 @@ bin
 *.class
 build
 .classpath
-*.jar
+.gradle
