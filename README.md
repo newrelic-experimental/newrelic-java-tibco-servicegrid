@@ -1,56 +1,50 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
 # New Relic Java Instrumentation for Tibco Service Grid
-
-> Provides instrumentation for the Tibco Service Grid product
+   
+Provides instrumentation for the Tibco Service Grid product
 
 ## Installation
 
-> Download the lastest release
-> Extract the jars from the archive
-> Copy the jars into the extensions directory of the New Relic Java Agent.  Create the directory if it does not exist.
-> Restart the application
+1. Download the lastest release
+2. Extract the jars from the archive
+3. Copy the jars into the extensions directory of the New Relic Java Agent.  Create the directory if it does not exist.
+4. Restart the application
 
 ## Getting Started
-> Requires gradle installed.
-> Run the following to build agent dependencies
-gradle checkForDependencies
+Requires gradle installed.   
+Run the following to build agent dependencies.  
+gradle checkForDependencies.  
 
 ## Building
-> Set the environment variable
-> To build all extensions, run  
-gradle clean install
+Set the environment variable NEW_RELIC_EXTENSIONS_DIR to the directory where you want to build the extensions
+To build all extensions, run  
+gradle clean install  
   
-> To build a particular extension, run the following where *project* is the extension to build
-gradle *project*:clean *project*:install
-
+To build a particular extension, run the following where *project* is the extension to build   
+gradle *project*:clean *project*:install.  
+   
 **Example**  
 gradle tibco_sg_spline:clean tibco_sg_spline:install
 
 ## Testing
 
-> Not Supported
+Not Supported
 
 ## Support
 
-New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
-
->Add the url for the support thread here
+New Relic has open-sourced this project. This project is provided AS-IS WITHOUT WARRANTY OR DEDICATED SUPPORT. Issues and contributions should be reported to the project here on GitHub.
 
 ## Contributing
-We encourage your contributions to improve [project name]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
-If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@newrelic.com.
+New Relic has open-sourced this project. This project is provided AS-IS WITHOUT WARRANTY OR DEDICATED SUPPORT. Issues and contributions should be reported to the project here on GitHub.
+
+We encourage you to bring your experiences and questions to the [Explorers Hub](https://discuss.newrelic.com) where our community members collaborate on solutions and new ideas.
 
 **A note about vulnerabilities**
 
 As noted in our [security policy](../../security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
 If you believe you have found a security vulnerability in this project or any of New Relic's products or websites, we welcome and greatly appreciate you reporting it to New Relic through [HackerOne](https://hackerone.com/newrelic).
-
-If you would like to contribute to this project, review [these guidelines](./CONTRIBUTING.md).
-
-To [all contributors](<LINK TO contributors>), we thank you!  Without your contribution, this project would not be what it is today.  We also host a community project page dedicated to [Project Name](<LINK TO https://opensource.newrelic.com/projects/... PAGE>).
-
 ## License
-[Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
->[If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+New Relic Java Instrumentation for Tibco Service Grid is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+
